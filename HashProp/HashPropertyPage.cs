@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Data;
+﻿using SharpShell.SharpPropertySheet;
+using System;
+using System.IO;
 using System.Linq;
-using System.Text;
+using System.Security.Cryptography;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using SharpShell.SharpPropertySheet;
-using System.Security.Cryptography;
-using System.IO;
 
 namespace HashProp
 {
