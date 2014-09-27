@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("HashProp")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("ARKconcepts")]
 [assembly: AssemblyProduct("HashProp")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyCopyright("Copyright © ARKconcepts")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
