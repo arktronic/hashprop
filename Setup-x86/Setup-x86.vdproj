@@ -28,13 +28,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_67786D897C6C9E7767BF943EBF26062A"
+        "OwnerKey" = "8:_C9296BC0575649979BE2EBB0C9C74B57"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C9296BC0575649979BE2EBB0C9C74B57"
+        "OwnerKey" = "8:_67786D897C6C9E7767BF943EBF26062A"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -55,6 +55,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -71,12 +79,84 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.5"
+                    }
+                }
+            }
         }
     }
     "Deployable"
     {
         "CustomAction"
         {
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_1E212B293B254E0F9D242C05BB40ABF6"
+            {
+            "Name" = "8:Primary output from HashProp (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_C9296BC0575649979BE2EBB0C9C74B57"
+            "FileType" = "3:1"
+            "InstallAction" = "3:1"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_3B5B5296_2274_424A_8C96_A1D23FDC579F"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_3ECCFD92F48E4F7C9C115E9AF6D10A4E"
+            {
+            "Name" = "8:Primary output from HashProp (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_C9296BC0575649979BE2EBB0C9C74B57"
+            "FileType" = "3:1"
+            "InstallAction" = "3:2"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_1A9AAC46_6656_44EF_AE6E_6F33A4F022F7"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_68B12717F50B4EF4A4AD9FFB6C6F7CF8"
+            {
+            "Name" = "8:Primary output from HashProp (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_C9296BC0575649979BE2EBB0C9C74B57"
+            "FileType" = "3:1"
+            "InstallAction" = "3:3"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_33E9CA5C_2E2F_4914_9D31_37239C365A4F"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_BC8320196ADC4F20899C2D746BA52540"
+            {
+            "Name" = "8:Primary output from HashProp (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_C9296BC0575649979BE2EBB0C9C74B57"
+            "FileType" = "3:1"
+            "InstallAction" = "3:4"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_89A71F16_7A51_40E9_B8E0_8DFB3BB3CE3E"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
         }
         "DefaultFeature"
         {
@@ -188,7 +268,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:HashProp"
         "ProductCode" = "8:{C9F6D0A0-F67D-47A3-90B6-8DC36A0F61F8}"
-        "PackageCode" = "8:{8BFE59EC-1986-40EA-8D7B-BF03FD6C3ABD}"
+        "PackageCode" = "8:{A327252D-7BD2-48DA-A319-42295F865C14}"
         "UpgradeCode" = "8:{139838CE-D2D5-4A21-A4DE-B5F895D23C9C}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
