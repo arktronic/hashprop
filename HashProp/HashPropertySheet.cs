@@ -6,6 +6,7 @@ using System.Runtime.InteropServices;
 
 namespace HashProp
 {
+    /*
     [ComVisible(true)]
     [COMServerAssociation(AssociationType.AllFiles)]
     public class HashPropertySheet : SharpPropertySheet
@@ -21,4 +22,5 @@ namespace HashProp
             return new[] { page };
         }
     }
+    */
 }
